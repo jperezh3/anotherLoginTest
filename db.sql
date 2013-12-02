@@ -1,0 +1,9 @@
+CREATE DATABASE phplogintestdb;
+
+CREATE TABLE IF NOT EXISTS users(
+		user_id			INT(15) PRIMARY KEY NOT NULL AUTO_INCREMENT,
+		user_name		VARCHAR(20) NOT NULL,
+		user_user		VARCHAR(30) NOT NULL,
+		user_pass		VARCHAR(20) NOT NULL,
+		user_email		VARCHAR(20) NOT NULL
+		)";
